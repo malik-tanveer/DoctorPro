@@ -7,7 +7,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <div className="w-full text-gray-800">
 
@@ -117,12 +117,12 @@ const Home: React.FC = () => {
 
           <div>
             <h3 className="font-semibold mb-2">Clinic Timing</h3>
-            <p className="text-sm text-gray-600">
+            {/* <p className="text-sm text-gray-600">
               Mon-Wed: 8 AM - 7 PM <br />
               Thu: 9 AM - 11 AM & 12 PM - 7 PM <br />
               Fri-Sat: 8 AM - 7 PM <br />
               Sunday: Closed
-            </p>
+            </p> */}
 
             <p className="mt-6 text-sm text-gray-600">
               Address: 544 Honey Creek Rd., West Des Moines, IA 50265

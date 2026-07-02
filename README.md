@@ -1,69 +1,16 @@
-# 🩺 DoctorPro
+# React + Vite
 
-DoctorPro is a modern healthcare and medical services website built with React, TypeScript, and Vite.  
-The project focuses on creating a clean, responsive, and user-friendly experience for clinics, doctors, and healthcare platforms.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🌐 Reference Design
-DoctorPro Inspiration / Reference:  
-https://doctorpro-wbs.webflow.io/
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## ✨ Features
+## React Compiler
 
-- Modern Healthcare UI
-- Fully Responsive Design
-- Built with React + TypeScript
-- Fast Routing with React Router DOM
-- Reusable Components
-- Clean and Scalable Code Structure
-- Optimized Performance with Vite
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## 🛠️ Tech Stack
-
-### Frontend
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- React Router DOM
-- Lucide React
-
-### Development Tools
-- ESLint
-- PostCSS
-- Autoprefixer
-- TypeScript ESLint
-
----
-
-## 📦 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/malik-tanveer/doctorpro.git
-
-Go to the project folder:
-
-cd doctorpro
-
-Install dependencies:
-
-npm install
-
-Start development server:
-
-npm run dev
-
-Build for production:
-
-npm run build
-
-
-🎯 Goal of This Project
-
-The goal of this project is to practice modern frontend development with React and TypeScript while building a professional healthcare website with a clean and accessible user experience.
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

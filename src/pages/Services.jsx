@@ -1,7 +1,7 @@
 import React from "react";
 import { CheckCircle, ArrowRight } from "lucide-react";
 
-const Services: React.FC = () => {
+const Services = () => {
   return (
     <div className="w-full px-8 py-16 bg-gray-50 text-gray-800">
 
